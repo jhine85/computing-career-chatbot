@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category>
+    <pattern>*</pattern>
+    <template><star /></template>
+</category>
+
+<category>
+    <pattern>HI</pattern>
+    <template>Hello! My name is computingcareerchatbot! What is your name?
+    Please answer with "My name is __"</template>
+</category>
+
+<category>
+    <pattern>HELLO</pattern>
+    <template>Hello! My name is computingcareerchatbot! What is your name?
+    Please answer with "My name is __"</template>
+</category>
+
+<category>
+    <pattern>HEY</pattern>
+    <template>Hello! My name is computingcareerchatbot! What is your name?
+    Please answer with "My name is __"</template>
+</category>
+
+<category>
+    <pattern>MY NAME IS *</pattern>
+    <template>Nice to meet you, <set name = "username"><star /></set>.
+    Are you looking for job types in Computer Science? YES or NO</template>
+</category>
+
+<category>
+    <pattern>NO</pattern>
+    <template>Sorry, this chatbot it for those seeking careers in computing.
+    Please seek another chatbot. 
+    </template>
+</category>
+
+<category>
+    <pattern>YES</pattern>
+    <template>Great! Please type "Jobs" to begin!</template>
+</category>
+
+<category>
+    <pattern>JOBS</pattern>
+    <template>Please choose the field that interests you most. Reply with the 
+    associated number:<ul>
+    <li>1: Database Administration</li>
+    <li>2: Web Development</li>
+    <li>3: Hardware Engineering</li>
+    <li>4: Software Engineering</li>
+    <li>5: Network Administration</li>
+    </ul>
+    Please ensure that you type the number (as a digit) correctly so we can match you!
+    </template>
+</category>
+
+<category>
+    <pattern>1</pattern>
+    <template>Being a database administrator might be the job for you! This job
+    requires use of software to provide data to users and keep it safe
+    from outside risks.
+    Learn more at:<ul>
+    <li>
+        <link>
+            <text>Database Administrator</text>
+        <url>https://www.rasmussen.edu/degrees/technology/blog/what-is-database-administrator/.</url>
+        </link>
+        </li></ul>
+        If you are not needing any further information, please type END. 
+        If you would like to seek another career, please type JOBS.
+    </template>
+</category>
+
+<category>
+    <pattern>2</pattern>
+    <template>Being a web developer might be the job for you! This job requires 
+    building and maintaining websites. Learn more at: <ul>
+        <li>
+            <link>
+                <text>Web Developer</text>
+            <url>https://www.rasmussen.edu/degrees/technology/blog/everything-about-becoming-web-developer/</url>
+            </link>
+            </li></ul>
+        If you are not needing any further information, please type END.
+        If you would like to seek another career, please type JOBS.
+   </template>
+</category>
+
+<category>
+    <pattern>3</pattern>
+    <template>Being a computer hardware engineer might be the job for you! This 
+    job requires designing various parts of computer hardware, external and internal.
+    Learn more at:<ul>
+        <li>
+            <link> 
+            <text>Computer Hardware Engineer</text>
+            <url>https://www.bls.gov/ooh/architecture-and-engineering/computer-hardware-engineers.htm</url>
+            </link>
+            </li>
+            </ul>
+    If you are not needing any further information, please type END.
+    If you would like to seek another career, please type JOBS.
+    </template>
+</category>
+
+<category>
+    <pattern>4</pattern>
+    <template>Being a computer software engineer might be the job for you!
+    This job requires developing and designing software for use. Learn more
+    at:<ul>
+        <li>
+            <link>
+                <text>Computer Software Engineer</text>
+                <url>https://resources.workable.com/software-engineer-job-description</url>
+            </link>
+            </li>
+    </ul>
+    If you are not needing any further information, please type END.
+    If you would like to seek another career, please type JOBS.
+    </template>
+</category>
+
+<category>
+    <pattern>5</pattern>
+    <template>Being a network administrator might be the job for you! This job requires
+    network management through hardware and software. Learn more at: <ul>
+        <li>
+            <link>
+                <text>Network Administrator</text>
+                <url>https://www.betterteam.com/network-administrator-job-description</url>
+                </link>
+                </li>
+    </ul>
+    If you are not needing any further information, please type END.
+    If you would like to seek another career, please type JOBS.
+    </template>
+</category>
+
+<category>
+    <pattern>END</pattern>
+    <template>You may now close the chatbot. Have a great day!</template>
+</category>
+
+</aiml>
